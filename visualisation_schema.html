@@ -85,11 +85,62 @@
         .info-box strong {
             color: #856404;
         }
+
+        .nav-bar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 15px 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-bar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-bar li {
+            margin: 0;
+        }
+
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-bar a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-bar a.active {
+            background: rgba(255, 255, 255, 0.4);
+            border: 2px solid white;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="gantt_interactif.html">📅 Diagramme de Gantt</a></li>
+                <li><a href="visualisation_schema.html" class="active">📊 Schémas Processus</a></li>
+            </ul>
+        </nav>
+
         <h1>📊 Schéma du Processus en Cascade<br />Projet Site Web Impulse</h1>
 
         <div class="info-box">
