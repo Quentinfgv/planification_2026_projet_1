@@ -1,0 +1,142 @@
+═══════════════════════════════════════════════════════════════════════════════
+    SCHÉMA DU PROCESSUS EN CASCADE - PROJET SITE WEB IMPULSE
+═══════════════════════════════════════════════════════════════════════════════
+
+DURÉE TOTALE : 9 semaines
+MÉTHODOLOGIE : Cascade (Waterfall)
+
+═══════════════════════════════════════════════════════════════════════════════
+PHASE 1 : CADRAGE ET ANALYSE (1 semaine)
+═══════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ • Analyse du contexte, des objectifs et du périmètre (UXPO-MKTI)           │
+│ • Identification des cibles et des besoins utilisateurs (UXPO)             │
+│ • Analyse de l'existant et des concurrents (MKTI)                          │
+│ • Organisation et réalisation des interviews utilisateurs (UXPO)           │
+└─────────────────────────────────────────────────────────────────────────────┘
+LIVRABLE : Note de cadrage et synthèse des besoins utilisateurs
+
+═══════════════════════════════════════════════════════════════════════════════
+PHASE 2 : CONCEPTION UX (1 semaine)
+═══════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ • Définition de l'architecture du site (arborescence) (DEV)                │
+│ • Conception des parcours utilisateurs (contact, RDV, simulateur) (UXPO)  │
+│ • Réalisation des wireframes des pages principales (UXPO-WD)                │
+└─────────────────────────────────────────────────────────────────────────────┘
+LIVRABLE : Wireframes validés
+
+═══════════════════════════════════════════════════════════════════════════════
+PHASE 3 : CONCEPTION UI / MAQUETTES GRAPHIQUES (1 semaine)
+═══════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ • Création des maquettes graphiques (MD-WD)                                 │
+│ • Validation de l'ergonomie, identité visuelle (UXPO-MKTI)                  │
+│ • Validation finale des maquettes par le client (Impulse)                   │
+└─────────────────────────────────────────────────────────────────────────────┘
+LIVRABLE : Maquettes graphiques validées
+
+═══════════════════════════════════════════════════════════════════════════════
+ÉTAPE 3 : ANALYSE SYSTÈME & DESIGN
+═══════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ANALYSE SYSTÈME :                                                            │
+│ • Analyse hébergement                                                       │
+│ • Certificat SSL/TLS                                                        │
+│ • Installation WordPress                                                     │
+│                                                                              │
+│ ANALYSE DESIGN :                                                             │
+│ • Prototypage / Maquetage                                                   │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+PHASE 4 : DÉVELOPPEMENT DU SITE (3 semaines)
+═══════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ • Maquetage finale                                                          │
+│ • Récupération des images et des logos des maquettes                        │
+│ • Création des fichiers de code                                             │
+│ • Estimation du type de code à adapter en fonction des maquettes            │
+│ • Développement du code et du plugin                                        │
+│ • Tests code et plugin                                                      │
+│ • Code final et plugin final                                                │
+│ • Développement back                                                        │
+│ • Tests back                                                                │
+│ • Test final back et front                                                  │
+│                                                                              │
+│ Également inclus :                                                          │
+│ • Intégration des maquettes en responsive (DEV)                             │
+│ • Mise en place du CMS et de l'espace administrateur (DEV)                  │
+│ • Développement du simulateur de partenariat (DEV)                          │
+│ • Intégration des formulaires et outils de contact (DEV)                    │
+│ • Connexion aux réseaux sociaux (DEV)                                       │
+└─────────────────────────────────────────────────────────────────────────────┘
+LIVRABLE : Site fonctionnel en environnement de test
+
+═══════════════════════════════════════════════════════════════════════════════
+PHASE 5 : CONTENUS, MARKETING ET SEO (1 semaine)
+═══════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ • Définition des messages clés et structuration des offres (MKTI)          │
+│ • Rédaction et intégration des contenus orientés conversion (MKTI)          │
+│ • Optimisation SEO (mots-clés, balises, contenus) (MKTI-DEV)               │
+│ • Création et optimisation de la fiche Google Business (MKTI)               │
+└─────────────────────────────────────────────────────────────────────────────┘
+LIVRABLE : Site optimisé pour la visibilité et la génération de leads
+
+═══════════════════════════════════════════════════════════════════════════════
+PHASE 6 : TESTS ET AJUSTEMENTS (1 semaine)
+═══════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ • Tests techniques et fonctionnels (DEV)                                    │
+│ • Tests utilisateurs et analyse des retours (UXPO)                          │
+│ • Corrections graphiques, UX et techniques (WD-DEV)                         │
+└─────────────────────────────────────────────────────────────────────────────┘
+LIVRABLE : Site corrigé et prêt à être mis en ligne
+
+═══════════════════════════════════════════════════════════════════════════════
+PHASE 7 : MISE EN LIGNE ET CLÔTURE (1 semaine)
+═══════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ • Mise en production du site sur l'hébergement existant (DEV)               │
+│ • Formation à l'utilisation du CMS (DEV-UXPO)                               │
+│ • Validation finale du projet et clôture (Impulse-UXPO)                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+LIVRABLE : Site en ligne et projet clôturé
+
+═══════════════════════════════════════════════════════════════════════════════
+ÉTAPE 5 : RENDU DU PROJET
+═══════════════════════════════════════════════════════════════════════════════
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ • Rendu du projet - Vérifier si tout fonctionne                             │
+│   → Pas de problème d'affichage                                             │
+│   → Pas de bugs                                                              │
+│                                                                              │
+│ • Vérifier si le projet a bien été rendu dans les temps                     │
+│                                                                              │
+│ • Vérifier que cela convient au client                                      │
+│                                                                              │
+│ • Vérifier s'il n'y a pas eu de frais supplémentaires                      │
+│   pour le développement du projet                                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+LÉGENDE DES ACTEURS
+═══════════════════════════════════════════════════════════════════════════════
+UXPO  : UX/UI Designer
+MKTI  : Marketing
+DEV   : Développeur
+WD    : Web Designer
+MD    : Directeur artistique
+Impulse : Client
+
+═══════════════════════════════════════════════════════════════════════════════
+CARACTÉRISTIQUES DE LA MÉTHODE EN CASCADE
+═══════════════════════════════════════════════════════════════════════════════
+✓ Séquentialité : Chaque phase doit être terminée avant de passer à la suivante
+✓ Validation : Chaque phase se termine par un livrable validé
+✓ Documentation : Chaque étape est documentée
+✓ Planification : Planning fixe et prévisible
+✓ Contrôle qualité : Tests et validations à chaque étape
+
+═══════════════════════════════════════════════════════════════════════════════

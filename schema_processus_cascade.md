@@ -1,0 +1,233 @@
+# Schéma du processus en cascade - Projet Site Web Impulse
+
+## Diagramme de Gantt - Méthode en Cascade
+
+```mermaid
+gantt
+    title Processus en Cascade - Projet Site Web Impulse
+    dateFormat  YYYY-MM-DD
+    section Phase 1: Cadrage et Analyse
+    Analyse contexte et objectifs (UXPO-MKTI)     :a1, 2026-01-01, 2d
+    Identification cibles et besoins (UXPO)       :a2, after a1, 2d
+    Analyse existant et concurrents (MKTI)       :a3, after a1, 2d
+    Interviews utilisateurs (UXPO)               :a4, after a2, 2d
+    Note de cadrage et synthèse                   :a5, after a4, 1d
+    
+    section Phase 2: Conception UX
+    Architecture du site (arborescence) (DEV)     :b1, after a5, 2d
+    Parcours utilisateurs (UXPO)                 :b2, after b1, 2d
+    Wireframes pages principales (UXPO-WD)       :b3, after b2, 3d
+    
+    section Phase 3: Conception UI
+    Maquettes graphiques (MD-WD)                 :c1, after b3, 3d
+    Validation ergonomie et identité (UXPO-MKTI) :c2, after c1, 2d
+    Validation client (Impulse)                  :c3, after c2, 2d
+    
+    section Étape 3: Analyse Système & Design
+    Analyse hébergement                           :d1, after c3, 1d
+    Certificat SSL/TLS                            :d2, after d1, 1d
+    Installation WordPress                        :d3, after d2, 1d
+    Prototypage/Maquetage                        :d4, after d3, 2d
+    
+    section Phase 4: Développement
+    Maquetage finale                              :e1, after d4, 2d
+    Récupération images et logos                  :e2, after e1, 1d
+    Création fichiers code                        :e3, after e2, 1d
+    Estimation type de code                      :e4, after e3, 1d
+    Développement code et plugin                  :e5, after e4, 5d
+    Tests code et plugin                          :e6, after e5, 2d
+    Code final et plugin final                    :e7, after e6, 1d
+    Développement back                            :e8, after e7, 3d
+    Tests back                                    :e9, after e8, 2d
+    Test final back et front                      :e10, after e9, 2d
+    
+    section Phase 5: Contenus & SEO
+    Messages clés et structuration (MKTI)         :f1, after e10, 2d
+    Rédaction contenus conversion (MKTI)          :f2, after f1, 2d
+    Optimisation SEO (MKTI-DEV)                   :f3, after f2, 2d
+    Fiche Google Business (MKTI)                  :f4, after f3, 1d
+    
+    section Phase 6: Tests et Ajustements
+    Tests techniques et fonctionnels (DEV)        :g1, after f4, 2d
+    Tests utilisateurs (UXPO)                     :g2, after g1, 2d
+    Corrections graphiques, UX et techniques      :g3, after g2, 3d
+    
+    section Phase 7: Mise en ligne
+    Mise en production (DEV)                      :h1, after g3, 2d
+    Formation CMS (DEV-UXPO)                      :h2, after h1, 2d
+    Validation finale et clôture                  :h3, after h2, 1d
+    
+    section Étape 5: Rendu Projet
+    Vérification fonctionnement                   :i1, after h3, 1d
+    Vérification timing                            :i2, after i1, 1d
+    Validation satisfaction client                :i3, after i2, 1d
+    Vérification coûts                            :i4, after i3, 1d
+```
+
+## Diagramme de flux - Processus en Cascade
+
+```mermaid
+flowchart TD
+    Start([Début du Projet]) --> Phase1[Phase 1: Cadrage et Analyse<br/>Durée: 1 semaine]
+    
+    Phase1 --> P1A[Analyse contexte/objectifs<br/>UXPO-MKTI]
+    P1A --> P1B[Identification cibles<br/>UXPO]
+    P1B --> P1C[Analyse existant/concurrents<br/>MKTI]
+    P1C --> P1D[Interviews utilisateurs<br/>UXPO]
+    P1D --> P1E[Note de cadrage<br/>Synthèse besoins]
+    
+    P1E --> Phase2[Phase 2: Conception UX<br/>Durée: 1 semaine]
+    
+    Phase2 --> P2A[Architecture site<br/>DEV]
+    P2A --> P2B[Parcours utilisateurs<br/>UXPO]
+    P2B --> P2C[Wireframes pages principales<br/>UXPO-WD]
+    
+    P2C --> Phase3[Phase 3: Conception UI<br/>Durée: 1 semaine]
+    
+    Phase3 --> P3A[Maquettes graphiques<br/>MD-WD]
+    P3A --> P3B[Validation ergonomie<br/>UXPO-MKTI]
+    P3B --> P3C[Validation client<br/>Impulse]
+    
+    P3C --> Etape3[Étape 3: Analyse Système & Design]
+    
+    Etape3 --> E3A[Analyse hébergement]
+    E3A --> E3B[Certificat SSL/TLS]
+    E3B --> E3C[Installation WordPress]
+    E3C --> E3D[Prototypage/Maquetage]
+    
+    E3D --> Phase4[Phase 4: Développement<br/>Durée: 3 semaines]
+    
+    Phase4 --> P4A[Maquetage finale]
+    P4A --> P4B[Récupération images/logos]
+    P4B --> P4C[Création fichiers code]
+    P4C --> P4D[Estimation type de code]
+    P4D --> P4E[Développement code/plugin]
+    P4E --> P4F[Tests code/plugin]
+    P4F --> P4G[Code final/plugin final]
+    P4G --> P4H[Développement back]
+    P4H --> P4I[Tests back]
+    P4I --> P4J[Test final back/front]
+    
+    P4J --> Phase5[Phase 5: Contenus & SEO<br/>Durée: 1 semaine]
+    
+    Phase5 --> P5A[Messages clés<br/>MKTI]
+    P5A --> P5B[Rédaction contenus<br/>MKTI]
+    P5B --> P5C[Optimisation SEO<br/>MKTI-DEV]
+    P5C --> P5D[Fiche Google Business<br/>MKTI]
+    
+    P5D --> Phase6[Phase 6: Tests et Ajustements<br/>Durée: 1 semaine]
+    
+    Phase6 --> P6A[Tests techniques/fonctionnels<br/>DEV]
+    P6A --> P6B[Tests utilisateurs<br/>UXPO]
+    P6B --> P6C[Corrections graphiques/UX/techniques<br/>WD-DEV]
+    
+    P6C --> Phase7[Phase 7: Mise en ligne<br/>Durée: 1 semaine]
+    
+    Phase7 --> P7A[Mise en production<br/>DEV]
+    P7A --> P7B[Formation CMS<br/>DEV-UXPO]
+    P7B --> P7C[Validation finale<br/>Impulse-UXPO]
+    
+    P7C --> Etape5[Étape 5: Rendu Projet]
+    
+    Etape5 --> E5A[Vérification fonctionnement<br/>Pas de bugs/affichage]
+    E5A --> E5B[Vérification timing<br/>Respect délais]
+    E5B --> E5C[Validation satisfaction client<br/>Conformité attentes]
+    E5C --> E5D[Vérification coûts<br/>Pas de frais supplémentaires]
+    
+    E5D --> End([Fin du Projet<br/>Projet clôturé])
+    
+    style Start fill:#90EE90
+    style End fill:#FFB6C1
+    style Phase1 fill:#87CEEB
+    style Phase2 fill:#87CEEB
+    style Phase3 fill:#87CEEB
+    style Phase4 fill:#FFD700
+    style Phase5 fill:#87CEEB
+    style Phase6 fill:#87CEEB
+    style Phase7 fill:#87CEEB
+    style Etape3 fill:#DDA0DD
+    style Etape5 fill:#DDA0DD
+```
+
+## Schéma détaillé des responsabilités par phase
+
+```mermaid
+graph LR
+    subgraph "Phase 1: Cadrage et Analyse (1 semaine)"
+        A1[UXPO-MKTI<br/>Analyse contexte]
+        A2[UXPO<br/>Identification cibles]
+        A3[MKTI<br/>Analyse concurrents]
+        A4[UXPO<br/>Interviews]
+        A5[Livrable:<br/>Note de cadrage]
+    end
+    
+    subgraph "Phase 2: Conception UX (1 semaine)"
+        B1[DEV<br/>Architecture]
+        B2[UXPO<br/>Parcours utilisateurs]
+        B3[UXPO-WD<br/>Wireframes]
+        B4[Livrable:<br/>Wireframes validés]
+    end
+    
+    subgraph "Phase 3: Conception UI (1 semaine)"
+        C1[MD-WD<br/>Maquettes]
+        C2[UXPO-MKTI<br/>Validation]
+        C3[Impulse<br/>Validation client]
+        C4[Livrable:<br/>Maquettes validées]
+    end
+    
+    subgraph "Étape 3: Analyse Système & Design"
+        D1[DEV<br/>Hébergement/SSL/WordPress]
+        D2[UXPO-WD<br/>Prototypage]
+    end
+    
+    subgraph "Phase 4: Développement (3 semaines)"
+        E1[DEV<br/>Intégration responsive]
+        E2[DEV<br/>CMS/Admin]
+        E3[DEV<br/>Simulateur]
+        E4[DEV<br/>Formulaires]
+        E5[DEV<br/>Réseaux sociaux]
+        E6[Livrable:<br/>Site fonctionnel test]
+    end
+    
+    subgraph "Phase 5: Contenus & SEO (1 semaine)"
+        F1[MKTI<br/>Messages clés]
+        F2[MKTI<br/>Rédaction]
+        F3[MKTI-DEV<br/>SEO]
+        F4[MKTI<br/>Google Business]
+        F5[Livrable:<br/>Site optimisé SEO]
+    end
+    
+    subgraph "Phase 6: Tests (1 semaine)"
+        G1[DEV<br/>Tests techniques]
+        G2[UXPO<br/>Tests utilisateurs]
+        G3[WD-DEV<br/>Corrections]
+        G4[Livrable:<br/>Site corrigé]
+    end
+    
+    subgraph "Phase 7: Mise en ligne (1 semaine)"
+        H1[DEV<br/>Production]
+        H2[DEV-UXPO<br/>Formation]
+        H3[Impulse-UXPO<br/>Clôture]
+        H4[Livrable:<br/>Site en ligne]
+    end
+    
+    A5 --> B1
+    B4 --> C1
+    C4 --> D1
+    D2 --> E1
+    E6 --> F1
+    F5 --> G1
+    G4 --> H1
+    H4 --> Etape5[Étape 5: Rendu Projet]
+```
+
+## Légende des acteurs
+
+- **UXPO** : UX/UI Designer
+- **MKTI** : Marketing
+- **DEV** : Développeur
+- **WD** : Web Designer
+- **MD** : Directeur artistique
+- **Impulse** : Client
+
+## Durée totale : 9 semaines
