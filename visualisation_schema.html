@@ -129,6 +129,103 @@
             background: rgba(255, 255, 255, 0.4);
             border: 2px solid white;
         }
+        
+        /* Media Queries pour mobile */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px 15px;
+                border-radius: 10px;
+            }
+            
+            h1 {
+                font-size: 1.6em;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+            }
+            
+            h2 {
+                font-size: 1.3em;
+                margin-top: 30px;
+                margin-bottom: 15px;
+                padding-left: 10px;
+            }
+            
+            .diagram-container {
+                padding: 15px;
+                margin: 20px 0;
+            }
+            
+            .info-box {
+                padding: 12px;
+                margin: 15px 0;
+            }
+            
+            .legend {
+                padding: 15px;
+                margin: 15px 0;
+            }
+            
+            .legend h3 {
+                font-size: 1.2em;
+            }
+            
+            .legend ul {
+                font-size: 0.9em;
+            }
+            
+            .nav-bar {
+                padding: 10px 15px;
+            }
+            
+            .nav-bar ul {
+                gap: 10px;
+            }
+            
+            .nav-bar a {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.3em;
+            }
+            
+            h2 {
+                font-size: 1.1em;
+            }
+            
+            .container {
+                padding: 15px 10px;
+            }
+            
+            .diagram-container {
+                padding: 10px;
+            }
+            
+            .info-box {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+            
+            .legend {
+                padding: 12px;
+            }
+            
+            .legend h3 {
+                font-size: 1.1em;
+            }
+            
+            .nav-bar a {
+                padding: 6px 12px;
+                font-size: 0.85em;
+            }
+        }
     </style>
 </head>
 

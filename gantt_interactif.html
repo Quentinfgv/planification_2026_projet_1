@@ -249,6 +249,132 @@
             background: rgba(255, 255, 255, 0.4);
             border: 2px solid white;
         }
+        
+        /* Media Queries pour mobile */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px 15px;
+                border-radius: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+                padding-bottom: 10px;
+            }
+            
+            .subtitle {
+                font-size: 1em;
+                margin-bottom: 20px;
+            }
+            
+            .info-panel {
+                grid-template-columns: 1fr;
+                gap: 15px;
+                margin: 20px 0;
+            }
+            
+            .info-card {
+                padding: 15px;
+            }
+            
+            .info-card h3 {
+                font-size: 1.1em;
+            }
+            
+            .info-card p {
+                font-size: 1em;
+            }
+            
+            .gantt-container {
+                padding: 15px;
+                margin: 20px 0;
+            }
+            
+            .gantt-container h2 {
+                font-size: 1.4em;
+                padding-left: 10px;
+            }
+            
+            .legend {
+                padding: 15px;
+                margin: 20px 0;
+            }
+            
+            .legend h3 {
+                font-size: 1.2em;
+            }
+            
+            .legend-items {
+                grid-template-columns: 1fr;
+            }
+            
+            table {
+                font-size: 0.85em;
+            }
+            
+            th, td {
+                padding: 8px;
+            }
+            
+            .nav-bar {
+                padding: 10px 15px;
+            }
+            
+            .nav-bar ul {
+                gap: 10px;
+            }
+            
+            .nav-bar a {
+                padding: 8px 15px;
+                font-size: 0.9em;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            
+            .subtitle {
+                font-size: 0.9em;
+            }
+            
+            .container {
+                padding: 15px 10px;
+            }
+            
+            .gantt-container {
+                padding: 10px;
+            }
+            
+            .gantt-container h2 {
+                font-size: 1.2em;
+            }
+            
+            table {
+                font-size: 0.75em;
+                display: block;
+                overflow-x: auto;
+            }
+            
+            th, td {
+                padding: 6px;
+            }
+            
+            .nav-bar a {
+                padding: 6px 12px;
+                font-size: 0.85em;
+            }
+            
+            .phase-badge {
+                font-size: 0.8em;
+                padding: 3px 10px;
+            }
+        }
     </style>
 </head>
 
